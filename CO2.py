@@ -8,7 +8,7 @@ import sklearn.metrics as sm
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv('CO2 Emissions_Canada (1).csv')
+df = pd.read_csv('CO2 Emissions_Canada.csv')
 
 
 df = df.dropna()
